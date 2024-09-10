@@ -4,8 +4,16 @@
 using namespace std;
 
 int main(){
-    
-    cout<<"hello word :D /n hey hey"<<endl;
+    int numero;
+    float numero_2;
+
+    cout<<"dame un numero: ";
+    cin>>numero;
+
+    cout<<"dame otro numero Flotante: ";
+    cin>>numero_2;
+
+    cout<<"El numero que ingresaste es: "<<numero;
 
     return 0;
 }
